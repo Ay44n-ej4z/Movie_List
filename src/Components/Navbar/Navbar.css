@@ -1,0 +1,106 @@
+.header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    text-transform: uppercase;
+    background-color: #191919cc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5vw;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 5px black;
+    color: white;
+    z-index: 100;
+    padding: 1%; 
+    text-decoration: none !important;
+  
+  }
+  .register {
+      display: flex;
+      align-items: center;
+      flex-direction: row;      
+      cursor: pointer;
+      color: white;
+      text-decoration: none !important;
+    
+    }
+
+.name:hover{
+    background-color: #353535c0;
+    border: 2 solid #25252588 ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+
+    }
+
+.signup:hover{ 
+    background-color: #353535c0;
+    border: 2 solid #25252588 ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+
+}
+.signin:hover{ 
+    background-color: #353535c0;
+    border: 2 solid #25252588 ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-shadow: 0 40px 60px -20px rgba(12, 5, 62, 0.15);
+
+}
+  .name {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    text-decoration: none !important;
+  }
+
+  .title{
+      padding: 10px;
+
+      color: white;
+      text-decoration: none !important;
+
+  }
+
+
+  .icon {
+   align-items: center;
+   display: flex;
+   cursor: pointer;
+  }
+  .signin{
+      padding: 10px;
+
+      color: white;
+      text-decoration: none !important;
+  }
+  .signup{
+      padding: 10px;
+      padding-left: 5px;
+      border-right: 1px solid #0f0f0f;
+      color: white;
+      text-decoration: none !important;
+      
+  }
+   
+  /* @media (max-width: 1000px) {
+    .header {
+      padding-top: 15px;
+      font-size: 6.4vw;
+    }
+  } */
+  
