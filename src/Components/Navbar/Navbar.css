@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -64,9 +64,13 @@
     flex-direction: row;
     cursor: pointer;
     text-decoration: none;
-    color: white;
-    text-decoration: none !important;
   }
+    span:hover { text-decoration: none; }
+    span:active { text-decoration: none; }
+  
+    span:link { text-decoration: none; }
+    span:visited { text-decoration: none; }
+
 
   .title{
       padding: 10px;
@@ -84,7 +88,7 @@
   }
   .signin{
       padding: 10px;
-
+      font-size: 1.5vw;
       color: white;
       text-decoration: none !important;
   }
@@ -94,7 +98,7 @@
       border-right: 1px solid #0f0f0f;
       color: white;
       text-decoration: none !important;
-      
+      font-size: 1.5vw;
   }
    
   /* @media (max-width: 1000px) {

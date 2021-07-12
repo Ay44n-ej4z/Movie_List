@@ -1,0 +1,8 @@
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  body {
+    background-color: #282c34d7;
+}
