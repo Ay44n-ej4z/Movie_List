@@ -1,5 +1,29 @@
-.search {
-    display: flex;
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
   
-  }
-  
+}
+
+.input{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+Input[type="range"] {
+  width:400px;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}

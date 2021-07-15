@@ -2,7 +2,7 @@ import React from 'react'
 import MovieIcon from '@material-ui/icons/Movie';
 import "./Navbar.css"
 import { Link } from 'react-router-dom';
-import Search from '../Pages/Search/Search';
+// import Search from '../Pages/Search/Search';
 function Navbar() {
     return (
         <div className = "header">
@@ -19,7 +19,7 @@ function Navbar() {
         </div>
         </div>
         <div className  = "search" >
-            <Search />
+            {/* <Search /> */}
         </div>
         <div className = "register">
       <div className = "signup">
